@@ -1,0 +1,149 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+#navbar{
+    width: 100%;
+    height: 2.3vw;
+    background-color: #0a0a0af8;
+    opacity: 0.8;
+    text-align: center;
+    padding-top: 1vw;
+}
+
+.nav_btn{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: Marvel, sans-serif;
+    font-size: large;
+    padding: 1vw 2vw;
+    margin: 0vw 1vw;
+} .nav_btn:hover {
+    background-color: whitesmoke;
+    color: #0a0a0af8;
+    transition: 0.5s;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#titles {
+    text-align: center;
+}
+
+#main_title {
+    font-size: 5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+#main_subtitle {
+    font-size: 1.9vw;
+    font-family: Raleway, sans-serif;
+}
+
+#imgs {
+    display: flex;
+    flex-direction: row;
+    margin: 0vw auto;
+}
+
+.img {
+    width: auto;
+    height: 20vw;
+    margin: 0vw 2vw;
+    border-radius: 0.2vw;
+    box-shadow: 0vw 0vw 0.5vw black;
+}
+
+hr {
+    width: 80%;
+    background-color: black;
+    height: 0.01vw;
+    margin-top: -2vw;
+}
+
+form {
+    margin: 4vw auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#main_user_txt {
+    font-size: 1.2vw;
+    font-family: Raleway, sans-serif;
+}
+
+input{
+    width: 15vw;
+    margin: 0.2vw auto;
+    background-color: rgba(34, 70, 146, 0.082);
+    font-size: large;
+    border: none;
+    border-radius: 0.4vw;
+}
+
+#form_btn {
+    width: 10vw;
+    color: whitesmoke;
+    background-color: rgba(34, 69, 146, 0.562);
+    margin: 1vw auto;
+    font-size: 1.25vw;
+    border: none;
+    border-radius: 0.4vw;
+    padding: 0.4vw;
+} #form_btn:hover {
+    background-color: rgba(67, 109, 199, 0.562);
+    cursor: pointer;
+}
+
+#articles {
+    display: flex;
+    flex-direction: row;
+    margin: 2vw;
+    flex-wrap: wrap;
+}
+
+#main_article {
+    width: 27vw;
+    height: auto;
+    border: solid black 0.01vw;
+    border-radius: 0.4vw;
+    padding: 0 1vw;
+    margin: 1vw 1vw;
+    box-shadow: 0vw 0vw 0.5vw black;
+    
+}
+
+#main_article_author{
+    font-size: 1.2vw;
+    font-family: Raleway, sans-serif;
+}
+
+#main_article_titre{
+    font-size: 1vw;
+    font-family: Raleway, sans-serif;
+}
+
+#main_article_content{
+    font-size: 1vw;
+    font-family: Raleway, sans-serif;
+    text-align: justify;
+}
+
+#main_article_date{
+    font-size: 1vw;
+    font-family: Raleway, sans-serif;
+}
+
+#footer {
+    grid-row: 3;
+    width: 100%;
+    height: 100%;
+}

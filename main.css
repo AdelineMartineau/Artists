@@ -1,0 +1,12 @@
+html, body {
+    margin:0;
+    padding: 0;
+    height: auto;
+    font-family:'Tangerine', cursive;
+}
+
+#header {
+    width: 100%;
+    background-color: rgba(207, 137, 207, 0.877);
+    
+}
